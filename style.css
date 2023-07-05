@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #14112E;
+}
+
+.header {
+    background-color: #1d165f;
+    padding: 20px;
+}
+  
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.logo {
+    font-size: 24px;
+    color: #070238;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+  
+.navbar li {
+    margin-right: 20px;
+}
+  
+.navbar li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+}
+  
+.navbar li a:hover {
+    color: #494646;
+}
+  
+.home {
+    padding: 50px 0;
+}
+  
+.home__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+.home__txt {
+    flex: 1;
+}
+  
+.home__txt span {
+    font-size: 18px;
+    color: #888;
+}
+  
+.home__txt h1 {
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+  
+.home__img {
+    flex: 1;
+    text-align: center;
+}
+  
+.home__img img {
+    max-width: 100%;
+    
+}
+  
+.games {
+    padding: 50px 0;
+}
+
+.txt {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.txt h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+  
+.games__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.game {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #1b0972;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+  
+.follo {
+    margin-top: 20px;
+}
+  
+.follo h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+  
+.follo img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+  
+.about {
+    padding: 50px 0;
+}
+  
+.txt {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+  
+.txt h3 {
+    font-size: 17px;
+}
+.about__1,
+.about__2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.about__1 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://i5.walmartimages.com/asr/94b6517e-6e2a-4c50-b8b0-05f2adaf894d_1.c69340dcecb5d20296f53dc0117ef903.jpeg);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.about__2 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://www.radiofrance.fr/s3/cruiser-production/2018/06/6d387c00-491e-4e5a-9ee9-742d3038ec9d/1200x680_20180615230750_1.jpg);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.about__1 h3,
+.about__2 h3 {
+    font-size: 18px;
+    color: #fff;
+}
+  
+.about__1 p,
+.about__2 p {
+    color: #fff;
+}
+  
+.about__1 img,
+.about__2 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.news {
+    padding: 10px 20px;
+}
+  
+.txt__news {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.txt__news h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+  
+.news__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+  
+.news__1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+  
+.news__1 img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+  
+.news__right {
+    flex: 1;
+}
+  
+.news__right h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+  
+.news__right p {
+    color: #645e5e;
+}
+  
+.news__form {
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.news__form h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+  
+.news__form p {
+    color: #777;
+    margin-bottom: 20px;
+}
+  
+.news__form input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+  
+.btn__1 {
+    display: inline-block;
+    background-color: #3b4491;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+  
+hr {
+    border: 1px solid #FFFFFF;
+}
+
+.footer {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.footer ul li:last-child {
+    margin-right: 0;
+}
+  
+.footer ul li a {
+    color: #A0A3C4;
+    text-decoration: none;
+}
+  
+.footer ul li a:hover {
+    text-decoration: underline;
+}
